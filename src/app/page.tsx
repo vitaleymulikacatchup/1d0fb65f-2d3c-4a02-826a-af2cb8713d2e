@@ -157,7 +157,7 @@ export default function LandingPage() {
               id: "3",
               name: "Signature Pasta",
               price: "$32",
-              imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_34kFQ1mvageIxtFsoHwjFOCooyh/uploaded-1765963663861-cy37kdqz.jpg",
+              imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_34kFQ1mvageIxtFsoHwjFOCooyh/uploaded-1763466258982-vp5jrc62.jpg",
               imageAlt: "Handmade signature pasta"
             }
           ]}
