@@ -9,12 +9,12 @@ import ProductCardOne from '@/components/sections/product/ProductCardOne';
 import TestimonialCardThree from '@/components/sections/testimonial/TestimonialCardThree';
 import ContactSplit from '@/components/sections/contact/ContactSplit';
 import FooterBaseCard from '@/components/sections/footer/FooterBaseCard';
-import { Utensils, ChefHat, Star, Mail, Linkedin } from "lucide-react";
+import { Utensils, ChefHat, Star, Mail } from "lucide-react";
 
 export default function LandingPage() {
   return (
     <ThemeProvider
-      defaultButtonVariant="elastic-effect"
+      defaultButtonVariant="text-stagger"
       defaultTextAnimation="reveal-blur"
       borderRadius="pill"
       contentWidth="large"
@@ -181,8 +181,7 @@ export default function LandingPage() {
               handle: "@mariadines",
               testimonial: "Absolutely exceptional! The salmon was perfectly cooked and the presentation was like art. We'll definitely be back for our anniversary.",
               imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_34kFQ1mvageIxtFsoHwjFOCooyh/uploaded-1765963667178-44o9s3a5.jpg",
-              imageAlt: "Maria Chen",
-              linkedin: "https://linkedin.com/in/maria-chen"
+              imageAlt: "Maria Chen"
             },
             {
               id: "2",
@@ -190,8 +189,7 @@ export default function LandingPage() {
               handle: "@jamesreview",
               testimonial: "Best fine dining experience I've had. The service was impeccable and every dish was a revelation. Highly recommended!",
               imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_34kFQ1mvageIxtFsoHwjFOCooyh/uploaded-1765963668345-mtt1p5rh.jpg",
-              imageAlt: "James Richardson",
-              linkedin: "https://linkedin.com/in/james-richardson"
+              imageAlt: "James Richardson"
             },
             {
               id: "3",
@@ -199,8 +197,7 @@ export default function LandingPage() {
               handle: "@sofiacooks",
               testimonial: "The attention to detail is remarkable. From the amuse-bouche to dessert, every element was thoughtfully crafted.",
               imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_34kFQ1mvageIxtFsoHwjFOCooyh/uploaded-1765963669763-iceozh2i.jpg",
-              imageAlt: "Sofia Gonzalez",
-              linkedin: "https://linkedin.com/in/sofia-gonzalez"
+              imageAlt: "Sofia Gonzalez"
             },
             {
               id: "4",
@@ -208,8 +205,7 @@ export default function LandingPage() {
               handle: "@davidfoodie",
               testimonial: "A truly memorable evening. The truffle risotto was divine and the wine pairings were expertly chosen. This is fine dining done right.",
               imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_34kFQ1mvageIxtFsoHwjFOCooyh/uploaded-1765963671043-8z0ekv7u.jpg",
-              imageAlt: "David Park",
-              linkedin: "https://linkedin.com/in/david-park"
+              imageAlt: "David Park"
             }
           ]}
         />
